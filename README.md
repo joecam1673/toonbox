@@ -1,25 +1,25 @@
-Toonbox is a continious video player and shuffler for use with a Raspberry Pi.
+# Toonbox Video Player / Looper / Shuffler
+A set of software and configuration files to build a continuous video player
+and shuffler on the Raspberry Pi with GPIO button support.
 
-######################
-Apt Packages Required
-######################
+# Requirements
+## Apt Packages
+ - cec-utils
+ - git
+ - omxplayer
+ - plymouth
+ - plymouth-themes
+ - python3-pip
 
-cec-utils
-git
-omxplayer
-plymouth
-plymouth-themes
-python3-pip
+### Optionally Required for NFS Support
+ - nfs-common
+ - nfs4-acl-tools
 
-nfs-common		# optional
-nfs4-acl-tools		# optional
-wiringpi		# future use
+### Future Use
+ - wiringpi
 
-#######################
-Pip3 Packages Required
-#######################
-
-cec
-omxplayer-wrapper 
-requests          
-RPi.GPIO          
+# PIP3 Packages
+ - cec
+ - omxplayer-wrapper 
+ - requests          
+ - RPi.GPIO          
