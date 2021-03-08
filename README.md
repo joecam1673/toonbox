@@ -3,6 +3,7 @@ Toonbox is a continious video player and shuffler for use with a Raspberry Pi.
 ######################
 Apt Packages Required
 ######################
+
 cec-utils
 git
 omxplayer
@@ -17,6 +18,7 @@ wiringpi		# future use
 #######################
 Pip3 Packages Required
 #######################
+
 cec
 omxplayer-wrapper 
 requests          
