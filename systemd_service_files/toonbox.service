@@ -1,0 +1,15 @@
+[Unit]
+Description=ToonBox Player Service
+After=network.target dbus.service rc-local.service systemd-remount-fs.service
+
+[Service]
+Type=exec
+ExecStart=/usr/bin/python3 -u toonbox.py
+WorkingDirectory=/home/pi/toonbox
+StandardOutput=inherit
+StandardError=inherit
+Restart=on-failure
+User=pi
+
+[Install]
+WantedBy=multi-user.target
