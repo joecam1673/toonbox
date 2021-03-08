@@ -3,7 +3,7 @@ A set of software and configuration files to build a continuous video player
 and shuffler on the Raspberry Pi with GPIO button support.
 
 # Requirements
-## Apt Packages
+## Deb Packages (Install with apt)
  - cec-utils
  - git
  - omxplayer
@@ -18,7 +18,7 @@ and shuffler on the Raspberry Pi with GPIO button support.
 ### Future Use
  - wiringpi
 
-# PIP3 Packages
+## Python3 Packages (install with pip3)
  - cec
  - omxplayer-wrapper 
  - requests          
